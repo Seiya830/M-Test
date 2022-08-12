@@ -4,10 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<<<<<<< HEAD
-    <link rel="stylesheet" href="style.css">
-=======
->>>>>>> refs/remotes/origin/main
+    <link rel="stylesheet" href="style.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -17,12 +14,175 @@
     <title>M-Test</title>
   </head>
   <body>
-    <h1>M-Test</h1>
-    <p>test</p>
-<<<<<<< HEAD
-    <h2>test2</h2>
-=======
->>>>>>> refs/remotes/origin/main
-    <p></p>
+    <div class="container">
+      <div id="q_01" class="fit">
+        <h1 class="mt-5">M-Test</h1>
+        <p>痛む部位は？</p>
+        <p>※伸ばされて痛い部位</p>
+
+        <!-- 最初の選択肢 -->
+        <div class="d-flex justify-content-center">
+          <button type="button" class="btn btn-primary">上肢前面</button>
+          <button type="button" class="ms-1 btn btn-primary">下肢前面</button>
+          <button type="button" class="ms-1 btn btn-primary">上肢後面</button>
+          <button type="button" class="ms-1 btn btn-primary">下肢後面</button>
+          <button type="button" class="ms-1 btn btn-primary">上肢側面</button>
+          <button type="button" class="ms-1 btn btn-primary">下肢側面</button>
+        </div>
+      </div>
+
+      <!-- 次の選択肢 -->
+      <div id="q_02" style="display: none">
+        <p>制限される動きは？</p>
+        <ul class="flexbox fw">
+          <li>頸部後屈</li>
+          <li>頸部回旋</li>
+          <li>肩関節伸展</li>
+          <li>前腕回内</li>
+          <li>手関節尺屈</li>
+          <a href="">次へ</a>
+        </ul>
+      </div>
+
+      <!-- 次の選択肢 -->
+      <div id="q_03" style="display: none">
+        <p>制限される動きは？</p>
+        <ul class="flexbox fw">
+          <li>股関節伸展</li>
+          <li>膝関節屈曲</li>
+          <li>足関節底屈</li>
+          <li>体幹後屈</li>
+          <a href="">次へ</a>
+        </ul>
+      </div>
+
+      <div id="q_04" style="display: none">
+        <p>制限される動きは？</p>
+        <ul class="flexbox fw">
+          <li>頸部前屈</li>
+          <li>肩関節屈曲</li>
+          <li>前腕回外</li>
+          <li>手関節橈屈</li>
+          <a href="">次へ</a>
+        </ul>
+      </div>
+
+      <!-- 次の選択肢 -->
+      <div id="q_05" style="display: none">
+        <p>制限される動きは？</p>
+        <ul class="flexbox fw">
+          <li>股関節屈曲</li>
+          <li>膝関節屈曲</li>
+          <li>足関節背屈</li>
+          <li>体幹前屈</li>
+          <a href="">次へ</a>
+        </ul>
+      </div>
+
+      <!-- 次の選択肢 -->
+      <div id="q_06" style="display: none">
+        <p>制限される動きは？</p>
+        <ul class="flexbox fw">
+          <li>頸部側屈</li>
+          <li>肩関節水平屈曲</li>
+          <li>肩関節水平伸展</li>
+          <li>肘関節屈曲</li>
+          <li>肘関節伸展</li>
+          <li>手関節掌屈</li>
+          <li>手関節背屈</li>
+          <li></li>
+          <a href="">次へ</a>
+        </ul>
+      </div>
+
+      <!-- 次の選択肢 -->
+      <div id="q_07" style="display: none">
+        <p>制限される動きは？</p>
+        <ul class="flexbox fw">
+          <li>股関節外旋</li>
+          <li>股関節内転</li>
+          <li>股関節外転</li>
+          <li>足部内がえし</li>
+          <li>足部外がえし</li>
+          <li>体感側屈</li>
+          <li>体感回旋</li>
+          <a href="">次へ</a>
+        </ul>
+      </div>
+    </div>
+
+    <!-- 経穴選択 -->
+    <div id="q_08" style="display: none">
+      <p>各経穴を押しながらもう一度動きをチェック</p>
+      <ul>
+        <li>太淵（肺経：手関節前面横紋の橈側陥凹部）</li>
+        <li>尺沢（大腸経：肘窩横紋上、上腕二頭筋腱橈側）</li>
+        <li>曲池（大腸経：肘窩横紋外端）</li>
+        <li>二間（肺経：第2中手指節関節末梢側、橈側陥凹部）</li>
+      </ul>
+    </div>
+
+    <!-- 経穴選択 -->
+    <div id="q_09" style="display: none">
+      <p>各経穴を押しながらもう一度動きをチェック</p>
+      <ul>
+        <li>商丘（脾経：内果前下方陥凹部）</li>
+        <li>大都（脾経：母趾内側、第1中足指節関節末梢側内側陥凹部）</li>
+        <li>解谿（胃経：足関節前面横紋の中央、前脛骨筋腱外側陥凹部）</li>
+        <li>厲兌（胃経：第2趾外側爪甲根部）</li>
+      </ul>
+    </div>
+
+    <!-- 経穴選択 -->
+    <div id="q_10" style="display: none">
+      <p>各経穴を押しながらもう一度動きをチェック</p>
+      <ul>
+        <li>少衝（心経：第5指橈側爪甲根部）</li>
+        <li>神門（心経：手関節部横紋上尺側、尺側手根屈筋腱橈側）</li>
+        <li>小海（小腸経：上腕骨内側上顆と肘頭の間陥凹部）</li>
+        <li>
+          後谿（小腸経：第5中手指節関節尺側後縁、手を握ってできる横紋の端）
+        </li>
+      </ul>
+    </div>
+
+    <!-- 経穴選択 -->
+    <div id="q_11" style="display: none">
+      <p>各経穴を押しながらもう一度動きをチェック</p>
+      <ul>
+        <li>
+          復溜（腎経：内果とアキレス腱の間より上方へ3横指、アキレス腱の前縁）
+        </li>
+        <li>湧泉（腎経：足底中央の前方で、足趾を屈曲すると最も陥凹する部）</li>
+        <li>至陰（膀胱経：第5趾外側爪甲根部）</li>
+        <li>束骨（膀胱経：第5中足指節関節の後、外側陥凹部）</li>
+      </ul>
+    </div>
+
+    <!-- 経穴選択 -->
+    <div id="q_12" style="display: none">
+      <p>各経穴を押しながらもう一度動きをチェック</p>
+      <ul>
+        <li>中衝（心包経：第3指橈側爪甲根部）</li>
+        <li>
+          大陵（心包経：手関節前面横紋中央、橈側手根屈筋腱と長掌筋腱の間）
+        </li>
+        <li>中渚（三焦経：手背の第4、第5中手間で第4中手指節関節の後方尺側）</li>
+        <li>天井（三焦経：肘頭からほぼ母指横指幅の上方陥凹部）</li>
+      </ul>
+    </div>
+
+    <!-- 経穴選択 -->
+    <div id="q_13" style="display: none">
+      <p>各経穴を押しながらもう一度動きをチェック</p>
+      <ul>
+        <li>曲泉（肝経：膝を深く屈曲し、膝窩横紋の内端）</li>
+        <li>行間（肝経：第1、第2中足指節関節間）</li>
+        <li>陽輔（胆経：外果の上にほぼ5横指の位置で、腓骨前縁）</li>
+        <li>侠谿（胆経：第4、第5第1、第2中足指節関節間）</li>
+      </ul>
+    </div>
+
+    <script src="app.js"></script>
   </body>
 </html>
