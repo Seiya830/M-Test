@@ -1,9 +1,13 @@
-const btn = document.querySelector('.btn');
-  function hello() {
-  alert('hello');
-};
-btn.addEventListener('click', hello);
+const elem = document.getElementsByClassName('btn');
 
+this.addEventListener('click', function() {
+  this.closest('div');
+  for (let elem of this.document.querySelectorAll('.btn')) {
+    elem.getElementsByClassName.display = 'none';
+  }
+  document.getElementsByClassName('this').getAttribute('href');
+  this.document.getElementsByClassName('this').classList.add('fit');
+});
 
 
 // $(function() {
