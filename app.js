@@ -3,10 +3,9 @@ const elem = document.getElementsByClassName('btn');
 this.addEventListener('click', function() {
   this.closest('div');
   for (let elem of this.document.querySelectorAll('.btn')) {
-    elem.getElementsByClassName.display = 'none';
+    elem.style.display = 'none';
+    document.getElementById('')
   }
-  document.getElementsByClassName('this').getAttribute('href');
-  this.document.getElementsByClassName('this').classList.add('fit');
 });
 
 
