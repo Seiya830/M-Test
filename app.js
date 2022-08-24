@@ -1,11 +1,10 @@
-const elem = document.getElementsByClassName('btn');
+const btn = document.querySelector('.btn');
+const id = document.querySelector('.btn').getAttribute('href');
 
-this.addEventListener('click', function() {
-  this.closest('div');
-  for (let elem of this.document.querySelectorAll('.btn')) {
-    elem.style.display = 'none';
-    document.getElementById('')
-  }
+btn.addEventListener('click', function() {
+  closest(document.querySelector('.btn'), 'div').style.display = 'none';
+  document.querySelector('id').classList.add('fit');
+  document.querySelector('id').style.display = 'block';
 });
 
 
